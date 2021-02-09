@@ -1,5 +1,5 @@
-const clientId = "3325f9e26b7d4975810462ac61646418";
-const redirectUri = "http://sulky-stream.surge.sh/";
+const clientId = process.env.CLIENT_ID;
+const redirectUri = process.env.REDIRECT_URI;
 
 let accessToken;
 
