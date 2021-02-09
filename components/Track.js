@@ -1,6 +1,15 @@
 import React from "react";
 
-const Track = ({ id, name, artist, album, isRemoval, onAdd, onRemove }) => {
+const Track = ({
+  id,
+  name,
+  uri,
+  artist,
+  album,
+  isRemoval,
+  onAdd,
+  onRemove,
+}) => {
   return (
     <div className="Track">
       <div className="Track-information">
@@ -16,7 +25,7 @@ const Track = ({ id, name, artist, album, isRemoval, onAdd, onRemove }) => {
         </button>
       ) : (
         <button
-          onClick={() => onAdd({ name, artist, album, id })}
+          onClick={() => onAdd({ name, artist, album, id, uri })}
           className="Track-action"
         >
           +

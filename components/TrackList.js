@@ -7,6 +7,7 @@ const TrackList = ({ tracks, isRemoval, onAdd, onRemove }) => {
       {tracks.map((track) => (
         <Track
           id={track.id}
+          uri={track.uri}
           key={track.id}
           name={track.name}
           album={track.album}

@@ -1,5 +1,5 @@
 const clientId = "3325f9e26b7d4975810462ac61646418";
-const redirectUri = "http://localhost:3000";
+const redirectUri = "http://sulky-stream.surge.sh/";
 
 let accessToken;
 
