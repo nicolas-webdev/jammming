@@ -1,5 +1,5 @@
-const clientId = process.env.CLIENT_ID;
-const redirectUri = process.env.REDIRECT_URI;
+const clientId = process.env.NEXT_PUBLIC_CLIENT_ID;
+const redirectUri = process.env.NEXT_PUBLIC_REDIRECT_URI;
 
 let accessToken;
 
